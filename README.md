@@ -1,5 +1,8 @@
 # Description
 
+This is a fork of OpenStreetMap's Rails Port for use as a historical mapping system.
+
+
 This is the Rails port, the [Ruby on Rails](http://rubyonrails.org/)
 application that powers [OpenStreetMap](http://www.openstreetmap.org).
 
