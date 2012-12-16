@@ -1142,7 +1142,7 @@ en:
         subject: "[OpenStreetMap] GPX Import success"
         loaded_successfully: loaded successfully with %{trace_points} out of a possible %{possible_points} points.
     signup_confirm:
-      subject: "[OpenStreetMap] Welcome to OpenStreetMap"
+      subject: "[Historical OpenStreetMap] Welcome to the Historical OpenStreetMap sandbox"
       greeting: "Hi there!"
       created: "Someone (hopefully you) just created an account at %{site_url}."
       confirm: "Before we do anything else, we need to confirm that this request came from you, so if it did then please click the link below to confirm your account:"
