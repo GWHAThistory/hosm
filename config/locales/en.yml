@@ -1958,6 +1958,7 @@ en:
   javascripts:
     map:
       base:
+        historical: Historical
         standard: Standard
         cycle_map: Cycle Map
         transport_map: Transport Map
