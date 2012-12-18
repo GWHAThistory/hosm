@@ -12,12 +12,6 @@ L.OSM.TileLayer = L.TileLayer.extend({
   }
 });
 
-L.OSM.HOSM = L.OSM.TileLayer.extend({
-  options: {
-    url: 'http://{s}.tile.hosm.gwhat.org/{z}/{x}/{y}.png'
-  }
-});
-
 L.OSM.Mapnik = L.OSM.TileLayer.extend({
   options: {
     url: 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
