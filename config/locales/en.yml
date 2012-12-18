@@ -928,7 +928,7 @@ en:
   layouts:
     project_name:
       # in <title>
-      title: OpenStreetMap - Historical OSM Sandbox
+      title: Historical OSM - Historical OpenStreetMap Sandbox
       # in <h1>
       h1: OpenStreetMap - Historical OSM Sandbox
     logo:
@@ -1959,7 +1959,8 @@ en:
     map:
       base:
         standard: Standard
-        cycle_map: Cycle Map
+        historical: Historical
+	cycle_map: Cycle Map
         transport_map: Transport Map
         mapquest: MapQuest Open
       overlays:
