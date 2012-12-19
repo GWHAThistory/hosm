@@ -1632,8 +1632,8 @@ en:
       openid: "%{logo} OpenID:"
       password: "Password:"
       confirm password: "Confirm Password:"
-      password description: "Passwords must be at least 8 characters."
-      use openid: "Alternatively, use %{logo} OpenID to login"
+      password description: "Passwords must be at least 8 characters. SECURITY NOTE: this password will be sent in the clear."
+      use openid: "For improved security, use %{logo} OpenID to login"
       openid no password: "With OpenID a password is not required, but some extra tools or server may still need one."
       openid association: |
         <p>Your OpenID is not associated with a OpenStreetMap account yet.</p>
