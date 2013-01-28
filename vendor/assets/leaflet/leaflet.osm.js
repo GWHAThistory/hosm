@@ -20,7 +20,7 @@ L.OSM.Mapnik = L.OSM.TileLayer.extend({
 
 L.OSM.Historical= L.OSM.TileLayer.extend({
   options: {
-    url: 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+    url: 'http://localhost/osm_tiles/{z}/{x}/{y}.png'
   }
 });
 
