@@ -960,7 +960,7 @@ en:
     user_diaries_tooltip: View user diaries
     edit_with: Edit with %{editor}
     tag_line: The Free Wiki World Map
-    intro_1: "OpenStreetMap is a free worldwide map, created by people like you."
+    intro_1: "Historical OpenStreetMap is a project designed to store and display map data throughout the history of the world."
     intro_2_html: "The data is free to %{download} and %{use} under its %{license}. %{create_account} to improve the map."
     intro_2_create_account: "Create a user account"
     intro_2_license: "open license"
