@@ -24,11 +24,13 @@ L.OSM.Historical= L.OSM.TileLayer.extend({
   }
 });
 
+
 L.OSM.CycleMap = L.OSM.TileLayer.extend({
   options: {
     url: 'http://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png'
   }
 });
+
 
 L.OSM.TransportMap = L.OSM.TileLayer.extend({
   options: {
