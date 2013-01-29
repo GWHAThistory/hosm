@@ -48,26 +48,26 @@ var map;
 
 var layers = [
   {
+    klass: L.OSM.Historical,
+    attribution: "<a href='http://wiki.openstreetmap.org/wiki/Historical_OSM'>HOSM</a>",
+    keyid: "historical",
+    layerCode: "H",
+    name: I18n.t("javascripts.map.base.historical")
+  },
+  {
     klass: L.OSM.Mapnik,
     attribution: "",
     keyid: "mapnik",
     layerCode: "M",
     name: I18n.t("javascripts.map.base.standard")
   },
-  {
-    klass: L.OSM.Historical,
-    attribution: "",
-    keyid: "historical",
-    layerCode: "M",
-    name: I18n.t("javascripts.map.base.historical")
-  },
-  {
+ /* {
     klass: L.OSM.CycleMap,
     attribution: "Tiles courtesy of <a href='http://www.opencyclemap.org/' target='_blank'>Andy Allan</a>",
     keyid: "cyclemap",
     layerCode: "C",
     name: I18n.t("javascripts.map.base.cycle_map")
-  },
+  }, 
   {
     klass: L.OSM.TransportMap,
     attribution: "Tiles courtesy of <a href='http://www.opencyclemap.org/' target='_blank'>Andy Allan</a>",
@@ -81,8 +81,8 @@ var layers = [
     keyid: "mapquest",
     layerCode: "Q",
     name: I18n.t("javascripts.map.base.mapquest")
-  }
-];
+  } */
+]; 
 
 function createMap(divName, options) {
   options = $.extend({zoomControl: true, panZoomControl: true, layerControl: true}, options);
