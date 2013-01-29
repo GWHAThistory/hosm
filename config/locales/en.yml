@@ -928,11 +928,11 @@ en:
   layouts:
     project_name:
       # in <title>
-      title: Historical OSM - Historical OpenStreetMap Sandbox
+      title: Historical OpenStreetMap Sandbox
       # in <h1>
-      h1: OpenStreetMap - Historical OSM Sandbox
+      h1: Historical OSM Sandbox
     logo:
-      alt_text: OpenStreetMap logo
+      alt_text: HOSM logo
     welcome_user: "Welcome, %{user_link}"
     welcome_user_link_tooltip: Your user page
     home: home
